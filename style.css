@@ -12,7 +12,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url("https://i.pinimg.com/736x/8c/46/23/8c4623da192acf6673b7dc56ed58cb01.jpg") no-repeat;
+    background: url("https://wallpapercave.com/wp/wp6812440.jpg") no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -23,15 +23,15 @@ header{
     left: 0;
     width: 100%;
     padding: 10px 100px;
-    background: red;
     display: flex;
+    background: none;
     justify-content: space-between;
     align-items: center;
     z-index: 99;
 }
 .logo{
     font-size: 2em ;
-    color: aliceblue;
+    color: black;
     user-select: none;
 }
 
@@ -42,6 +42,7 @@ header{
     text-decoration: none;
     font-weight: 500;
     margin-left: 40px;
+    text-shadow: 0 0 5px  pink;
 }
 
 .navigation a::after {
@@ -51,7 +52,7 @@ header{
     bottom: -6px;
     width: 100%;
     height: 3px;
-    background: #fff;
+    background: rgb(254, 173, 223);
     border-radius: 5px;
     transform-origin: left;
     transform: scaleX(0);
@@ -66,12 +67,12 @@ header{
     width: 130px;
     height: 50px;
     background: transparent;
-    border: 2px solid white;
+    border: 2px solid pink;
     outline: none;
     border-radius: 6px;
     cursor: pointer;
     font-size: 1.1em;
-    color: white;
+    color: pink;
     font-weight: 500;
     margin-left: 40px;
     transition: 0.5s;
@@ -79,8 +80,8 @@ header{
 
 .navigation .btnLogin-popup:hover {
     transform-origin: right;
-    background-color: #fff;
-    color: red;
+    background-color: pink;
+    color: white;
 }
 
 .wrapper{
@@ -91,6 +92,42 @@ header{
     border: 2px solid rgba(255, 255, 255, .5);
     border-radius: 20px;
     backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
 
+p{
+    text-shadow: 0 0 5px  pink;
+    color: #333333; /* Negro */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.activo-bth{
+    display:block;
+}
+
+.activo-sanV{
+    display: block;
+}
+
+.activo-bth .none{
+ display: none;
+}
+
+.activo-sanV .none{
+ display: none;
+}
+
+h2{
+    text-shadow: 0 0 5px  pink;
 }
