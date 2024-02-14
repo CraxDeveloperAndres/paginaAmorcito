@@ -10,11 +10,8 @@ const classBth = document.querySelector('.activo-bth');
 const classV = document.querySelector('.activo-sanV');
 const primero = document.querySelector('.primero');
 
-primero.classList.add('no');
+classV.classList.add('no');
 classBth.classList.add('no');
-
-
-
 
 Pbirth.addEventListener('click',()=> {
 
