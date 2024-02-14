@@ -98,36 +98,60 @@ header{
     align-items: center;
 }
 
+.wrapper .bth{
+    transition: 0.5s;
+    width: 800px;
+}
+
 .wrapper{
     display: flex;
     flex-direction: column;
     color: white;
+    margin: 5px;
+    padding: 20px;
+    text-align: justify;
 }
 
 p{
     text-shadow: 0 0 5px  pink;
-    color: #333333; /* Negro */
+    color: #333333; 
     font-family: Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
 }
 
-.activo-bth{
+.letter-birth{
     display:block;
 }
 
-.activo-sanV{
+.letter-san{
     display: block;
 }
 
-.activo-bth .none{
+.letter-birth .no {
  display: none;
 }
 
-.activo-sanV .none{
+.letter-san .no {
  display: none;
 }
 
 h2{
     text-shadow: 0 0 5px  pink;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.primeraIMG{
+    border-radius: 10px;
+    width: 350px;
+    height: 300px;
+}
+
+.primero{
+    display: block;
+}
+
+.no {
+    display: none;
 }
